@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - with proper grammar
- *
- * return: always 0 (Success)
+ * main - Entry Point
+ * return: always 0 (success)
  *
 */
 
