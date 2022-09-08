@@ -5,12 +5,12 @@
 int main(void){ 
 	
 /**
- * Return always (ii0)
+ * Return always (0)
  *
- * This is a script file that prints using the puts function
+ * This is a scrip4-puts.cit file that prints using the puts function
  */
 
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 
 }
