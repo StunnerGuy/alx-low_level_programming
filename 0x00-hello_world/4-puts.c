@@ -6,9 +6,9 @@ int main(void)
 { 
 
 /**
- * Return always (0) success
+ *main - print script usint puts function
  *
- * This is a script file that prints using the puts function
+ *return: Always 0 success
  */
 
 	puts("\"Programming is like building a multilingual puzzle");
