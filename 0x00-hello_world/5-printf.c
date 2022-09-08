@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * Main - entry point
+ * main - Entry point
  * Return: always 0 (success)
  * Description: Print text and return
 */
-int main(void)
 
+int main(void)
 {
+
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 
 	return (0);
