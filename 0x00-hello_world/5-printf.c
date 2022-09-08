@@ -4,7 +4,6 @@
  * Return: always 0 (success)
  * Description: Print text and return
 */
-
 int main(void)
 
 {
