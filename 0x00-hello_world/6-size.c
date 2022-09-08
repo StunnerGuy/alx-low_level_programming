@@ -6,8 +6,8 @@
  *
  * Return: always 0 (success)
 */
-int main(void){
-
+int main(void)
+{
 	printf("size of char:%d byte(s)\n", sizeof(char));
 	printf("size of int:%d bytes(s)\n", sizeof(int));
 	printf("size of long int:%d byte(s)\n", sizeof(long));
