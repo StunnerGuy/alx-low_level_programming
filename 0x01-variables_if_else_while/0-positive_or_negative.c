@@ -6,7 +6,7 @@
  * main - entry point print text and assign numberis
  *
  * Description - Determining negative or positive result
- * result = 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
