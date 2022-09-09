@@ -3,9 +3,10 @@
 #include <time.h>
 
 /**
- *main - entry point
- *Description - Determining negative or positive result
- *result = 0 (success)
+ * main - entry point print text and assign numberis
+ *
+ * Description - Determining negative or positive result
+ * result = 0 (success)
  */
 
 int main(void)
