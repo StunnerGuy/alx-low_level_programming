@@ -1,29 +1,27 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
- * description - prints numbers to base 16
+ * Description - all possible combination of single digit numbers
  *
  * Return: Always 0 (success)
+ *
  */
 
 int main(void)
 {
 	int num;
 
-	char ch;
-
-	for (num = 0; num < 10; num++)
+	for (num = 0; num <= 9; num++)
+	{
 		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
+		putchar(',');
 
-	for (ch = 'a'; ch <= 'f'; ch++
-			)
-		putchar(ch);
+		putchar(' ');
+	}
 
 	putchar('\n');
-
 	return (0);
-
-
 }
