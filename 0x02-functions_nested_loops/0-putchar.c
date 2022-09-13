@@ -15,10 +15,10 @@ int main(void)
 
 	for (a = 0; a < 8; ++a)
 	{
-		_putchar(str[a]);
+		putchar(str[a]);
 	}
 
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
