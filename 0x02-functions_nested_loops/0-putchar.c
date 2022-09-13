@@ -1,5 +1,4 @@
 #include "main.h"
-#include "main.h"
 
 /**
  * main - Entry point
@@ -7,7 +6,6 @@
  * Description: A script that prints _putchar
  *
  * Return: Always 0 (success)
- *
  */
 
 int main(void)
