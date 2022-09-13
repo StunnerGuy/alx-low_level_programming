@@ -14,7 +14,7 @@ int _isalpha(int c)
 	char _char = (int)c;
 	{
 		if (isalpha(_char))
-			return(1);
+			return (1);
 	}
 	return (0);
 }
