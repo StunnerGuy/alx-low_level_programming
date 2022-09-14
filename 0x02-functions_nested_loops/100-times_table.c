@@ -63,18 +63,18 @@ void print_times_table(int n)
 				continue;
 			}
 			_putchar(',');
-			switch ( countd(m))
+			switch (countd(m))
 			{
-			case 1: 
-				putspace (3);
+			case 1:
+				putspace(3);
 				_putchar(48 + (m % 10));
 				break;
-			case 2: 
+			case 2:
 				putspace(2);
 				_putchar(48 + ((m / 10) % 10));
-				_putchar(48 +(m % 10));
+				_putchar(48 + (m % 10));
 				break;
-			case 3: 
+			case 3:
 				putspace(1);
 				_putchar(48 + ((m / 10) / 10));
 				_putchar(48 + ((m / 10) % 10));
@@ -83,9 +83,7 @@ void print_times_table(int n)
 			default:
 				break;
 			}
-		
 		}
 		_putchar('\n');
 	}
-
 }
