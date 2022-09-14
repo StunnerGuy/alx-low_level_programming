@@ -50,7 +50,7 @@ void print_times_table(int n)
 	/* rows, columns, multipls */
 	int r, c, m;
 
-	if (n > 15 || m < 0)
+	if (n > 15 || n < 0)
 		return;
 	for (r = 0; r <= n; r++)
 	{
