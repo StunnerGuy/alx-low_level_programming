@@ -18,7 +18,7 @@ void times_table(void)
 		for (c = 0; c <= t; c++)
 		{
 			/* multiply the row by column */
-			m = e * c;
+			m = r * c;
 
 			if (m / 10) /* if a first digit exists */
 				/* print the first digit */
