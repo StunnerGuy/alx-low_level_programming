@@ -13,7 +13,8 @@
 
 int main(void)
 {
-	int sum, num;
+	int sum;
+	int num;
 
 	for (num = 0; num < 1024; ++num)
 	{
