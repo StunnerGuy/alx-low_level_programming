@@ -7,7 +7,7 @@
 
 void times_table(void)
 {
-	int 
+	int
 		t = 9, /* tines */
 		r, /* rows */
 		c, /* columns */
