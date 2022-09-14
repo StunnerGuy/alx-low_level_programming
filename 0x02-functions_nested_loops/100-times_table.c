@@ -31,7 +31,7 @@ int countd(int n)
 
 void putspace(int n)
 {
-	int 1 = 0;
+	int i = 0;
 
 	for (; i < n; i++)
 		_putchar(' ');
@@ -59,7 +59,7 @@ void print_times_table(int n)
 			m = r * c;
 			if (c == 0)
 			{
-				_putchar('0);
+				_putchar('0');
 				continue;
 			}
 			_putchar(',');
