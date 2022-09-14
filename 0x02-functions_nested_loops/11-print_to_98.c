@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print n to 98 counts,separated by comma, followed, by space. Numbers should be in order.
+ * print_to_98 - print n to 98 counts,separated by comma.
+ *
+ * followed, by space. Numbers should be in order. 
  *
  * @n: input
  */
