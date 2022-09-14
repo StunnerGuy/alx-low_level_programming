@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -26,11 +27,11 @@ int main(void)
 		if ((sum % 2) == 0)
 			total_sum += sum;
 
-		fib1 = fib2
+		fib1 = fib2;
 			fib2 = sum;
 	}
 
-		printf("%.0f\n", tital_sum);
+		printf("%.0f\n", total_sum);
 
 		return (0);
 }
