@@ -16,7 +16,7 @@ void jack_bauer(void)
 	{
 		hour = mins / 60;
 
-		mins = mins % 60;
+		min = mins % 60;
 
 		_putchar(48 + (hour / 10));
 
