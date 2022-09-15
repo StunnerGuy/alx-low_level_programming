@@ -1,6 +1,5 @@
 #include "main"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - program that prints number or fizz buzz
@@ -20,7 +19,7 @@ int main(void)
 		} else if (1 % 5 == 0 && i % 3 != 0)
 		{
 			ptintf(" Buzz");
-		} else if (1 % 3 == 0 && i % 5 == 0)
+		} else if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("  FizzBuzz");
 		} else if (i == 1)
