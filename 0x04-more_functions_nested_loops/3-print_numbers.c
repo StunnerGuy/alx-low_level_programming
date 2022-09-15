@@ -4,11 +4,10 @@
 /**
  * print_numbers - functions that prints digits
  * from 0 - 9
- *
  * Return: returns nothing
  */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 	int n;
 
