@@ -2,7 +2,7 @@
 #include "main"
 
 /**
- * P{rint_line - prints a straight line
+ * print_line - prints a straight line
  * @n: parameter
  * Return: Always 0
  */
