@@ -2,6 +2,7 @@
 
 /**
  * main - prints out from 1 to 100, followed by a new line.
+ *
  * But for multiples of 3, print Fizz
  * Return: Always 0
  */
