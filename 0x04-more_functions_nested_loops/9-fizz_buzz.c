@@ -9,34 +9,23 @@
 
 int main(void)
 {
-	int num = 1;
+	const int MAX = 100;
 
-	while (num++ < 100)
+	int counter;
+
+	for (counter = 1; counter <= MAX; counter++)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
-		{
-			printf("FizzBuzz ");
-		}
-		else if ((num % 3) == 0)
-		{
-			printf("Fizz ");
-		}
-		else if ((num % 5) ==0)
-		{
-			if (num != 100)
-			{
-				printf("Buzz ");
-			}
-			else
-			 {
-				 printf("Buzz");
-			 }
-		}
+		if (counter % 3 == 0 && counter % 5 == 0)
+			printf("FizzBuzz");
+		else if (counter % 3 == 0)
+			printf("Fizz");
+		else if (counter % 5 == 0)
+			printF("Buzz");
 		else
-		{
-			printf(%d ", num);
-		}
+			printf("%d" counter);
+		if (counter != MAX)
+			putchar(' ');
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
