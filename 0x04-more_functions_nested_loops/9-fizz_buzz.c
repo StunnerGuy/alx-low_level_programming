@@ -9,23 +9,31 @@
 
 int main(void)
 {
-	const int MAX = 100;
+	int i;
 
-	int counter;
-
-	for (counter = 1; counter <= MAX; counter++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (counter % 3 == 0 && counter % 5 == 0)
+		if (i % 3 == 0 && i % 5 != 0)
+		{
+			print("Fizz");
+		}
+		else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf("Buzz");
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
 			printf("FizzBuzz");
-		else if (counter % 3 == 0)
-			printf("Fizz");
-		else if (counter % 5 == 0)
-			printF("Buzz");
+		}
+		else if (i == 1)
+		{
+			printf("%d", i);
+		}
 		else
-			printf("%d", counter);
-		if (counter != MAX)
-			putchar(' ');
+		{
+			printf("%d",  i);
+		}
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
