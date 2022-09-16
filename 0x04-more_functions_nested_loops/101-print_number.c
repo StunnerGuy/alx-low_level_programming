@@ -4,10 +4,11 @@
 /**
  * print_number - prints a number
  * @n: The number to print
+ *
  * Return: Always 0
  */
 
-void print_number(int)
+void print_number(int n)
 {
 	unsigned int num = n;
 
@@ -21,5 +22,5 @@ void print_number(int)
 	{
 		print_number(num / 10);
 	}
-	_putchar(num % 10 +  '0');
+	_putchar(num % 10 + '0');
 }
