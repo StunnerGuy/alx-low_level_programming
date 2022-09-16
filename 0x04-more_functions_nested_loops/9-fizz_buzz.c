@@ -1,9 +1,8 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - program that prints number or fizz buzz
- *
+ * main - prints out from 1 to 100, followed by a new line.
+ * But for multiples of 3, print Fizz
  * Return: Always 0
  */
 
@@ -22,7 +21,7 @@ int main(void)
 		else if (counter % 5 == 0)
 			printF("Buzz");
 		else
-			printf("%d" counter);
+			printf("%d", counter);
 		if (counter != MAX)
 			putchar(' ');
 	}
