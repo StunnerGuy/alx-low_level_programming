@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * reverse_array - reverse the contents of an array
@@ -22,6 +23,6 @@ void reverse_array(int *a, int n)
 		a[first] = a[last];
 		/* replace a[last] with a[first]'s previous value */
 		first++; /* increase first */
-		last --; /* decrease last */
+		last--; /* decrease last */
 	}
 }
