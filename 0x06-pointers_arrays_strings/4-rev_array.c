@@ -22,6 +22,7 @@ void reverse_array(int *a, int n)
 		/* replace a[first] with  a[last] */
 		a[first] = a[last];
 		/* replace a[last] with a[first]'s previous value */
+		a[last] = middleman;
 		first++; /* increase first */
 		last--; /* decrease last */
 	}
