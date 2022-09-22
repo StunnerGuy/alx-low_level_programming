@@ -19,11 +19,12 @@ char *rot13(char *str)
 	strcat(set2, "NOPQRSTUVWXYZABCDEFGHIJKLM");
 
 	for (i = 0; str[i]; i++)
-		if (set1[s] == str[i])
-		{
-			str[i] = set2[s];
-			break;
-		}
+		for (s = 0; set1[s]; s++)
+			if (set1[s] == str[i])
+			{
+				str[i] = set2[s];
+				break;
+			}
 
 	return (str);
 }
